@@ -1,0 +1,41 @@
+name: sijak_traffic
+description: "지역 내 교차로 신호 패턴을 시각화하고 분석하는 앱"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  http: ^0.13.6
+  geolocator: ^10.1.0
+  google_maps_flutter: ^2.5.0
+  shared_preferences: ^2.2.0
+  mailer: ^6.0.1
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/구리.json
+    - assets/수원.json
+
+
+
+
+
+
+
+
+
+
